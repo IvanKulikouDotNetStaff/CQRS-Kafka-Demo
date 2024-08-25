@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRS-ES", "CQRS-ES", "{AB934098-5FA3-4455-B0CD-214949726B05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM-Post", "SM-Post", "{E4DF7BBB-3454-453A-AEE6-A3AA6A414133}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post.Cmd", "Post.Cmd", "{8B451479-4B18-4F1A-BF6B-56A2378F5D3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post.Query", "Post.Query", "{E97F5B7D-1A0C-4F79-AB37-E1F0922E73AD}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B451479-4B18-4F1A-BF6B-56A2378F5D3E} = {E4DF7BBB-3454-453A-AEE6-A3AA6A414133}
+		{E97F5B7D-1A0C-4F79-AB37-E1F0922E73AD} = {E4DF7BBB-3454-453A-AEE6-A3AA6A414133}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A02398FE-D060-4689-8038-5641288FB4DA}
+	EndGlobalSection
+EndGlobal
